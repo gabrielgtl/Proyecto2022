@@ -116,6 +116,7 @@ Partial Class frmdatos_usuarios
         '
         'cbotipousuario
         '
+        Me.cbotipousuario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbotipousuario.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbotipousuario.FormattingEnabled = True
         Me.cbotipousuario.Location = New System.Drawing.Point(283, 470)

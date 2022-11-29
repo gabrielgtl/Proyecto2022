@@ -144,6 +144,7 @@ Partial Class frmdatos_conductor
         '
         'cbociudad
         '
+        Me.cbociudad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbociudad.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbociudad.FormattingEnabled = True
         Me.cbociudad.Location = New System.Drawing.Point(284, 512)

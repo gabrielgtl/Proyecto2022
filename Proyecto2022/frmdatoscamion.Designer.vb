@@ -38,8 +38,8 @@ Partial Class frmdatoscamion
         Me.lblmatricula = New System.Windows.Forms.Label()
         Me.lblnombre = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.cbxmodelo = New System.Windows.Forms.ComboBox()
         Me.cbxtipo = New System.Windows.Forms.ComboBox()
+        Me.cbxmodelo = New System.Windows.Forms.ComboBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -71,6 +71,7 @@ Partial Class frmdatoscamion
         '
         'cbxpedidos
         '
+        Me.cbxpedidos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbxpedidos.FormattingEnabled = True
         Me.cbxpedidos.Location = New System.Drawing.Point(161, 399)
         Me.cbxpedidos.Name = "cbxpedidos"
@@ -79,6 +80,7 @@ Partial Class frmdatoscamion
         '
         'cbxconductor
         '
+        Me.cbxconductor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbxconductor.FormattingEnabled = True
         Me.cbxconductor.Location = New System.Drawing.Point(186, 363)
         Me.cbxconductor.Name = "cbxconductor"
@@ -194,21 +196,23 @@ Partial Class frmdatoscamion
         Me.Panel1.Size = New System.Drawing.Size(526, 638)
         Me.Panel1.TabIndex = 46
         '
-        'cbxmodelo
-        '
-        Me.cbxmodelo.FormattingEnabled = True
-        Me.cbxmodelo.Location = New System.Drawing.Point(133, 444)
-        Me.cbxmodelo.Name = "cbxmodelo"
-        Me.cbxmodelo.Size = New System.Drawing.Size(144, 24)
-        Me.cbxmodelo.TabIndex = 40
-        '
         'cbxtipo
         '
+        Me.cbxtipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbxtipo.FormattingEnabled = True
         Me.cbxtipo.Location = New System.Drawing.Point(333, 444)
         Me.cbxtipo.Name = "cbxtipo"
         Me.cbxtipo.Size = New System.Drawing.Size(144, 24)
         Me.cbxtipo.TabIndex = 41
+        '
+        'cbxmodelo
+        '
+        Me.cbxmodelo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cbxmodelo.FormattingEnabled = True
+        Me.cbxmodelo.Location = New System.Drawing.Point(133, 444)
+        Me.cbxmodelo.Name = "cbxmodelo"
+        Me.cbxmodelo.Size = New System.Drawing.Size(144, 24)
+        Me.cbxmodelo.TabIndex = 40
         '
         'frmdatoscamion
         '

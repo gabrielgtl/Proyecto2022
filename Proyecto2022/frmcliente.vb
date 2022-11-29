@@ -14,7 +14,7 @@ Public Class frmcliente
     '-------SUB RUTINAS------------------------------------------------------------------------------------
     Sub CargarGrilla()
         Try
-            dtInforme = generar_datatabla("Select p.idpersona,p.nombreapellido, tp.nombreciudad as 'Ciudades', a.tipocliente as 'TIPOCLIENTE' from Clientes p, p.direccion
+            dtInforme = generar_datatabla("Select p.idpersona,p.nombreapellido, tp.nombreciudad as 'Ciudades',p.direccion, a.tipocliente as 'TIPOCLIENTE' from Clientes p
 join Ciudades tp on p.ciudad=tp.idciudad
 join TIPOCLIENTE a on p.tipocliente=a.idtipocliente")
             dgvclientes.DataSource = dtInforme

@@ -147,6 +147,7 @@ Partial Class frmdatos_clientes
         '
         'cbociudad
         '
+        Me.cbociudad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbociudad.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbociudad.FormattingEnabled = True
         Me.cbociudad.Location = New System.Drawing.Point(160, 510)
@@ -156,6 +157,7 @@ Partial Class frmdatos_clientes
         '
         'cbotipocliente
         '
+        Me.cbotipocliente.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbotipocliente.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbotipocliente.FormattingEnabled = True
         Me.cbotipocliente.Location = New System.Drawing.Point(466, 510)

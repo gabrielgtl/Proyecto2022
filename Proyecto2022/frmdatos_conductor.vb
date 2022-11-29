@@ -16,7 +16,6 @@ Public Class frmdatos_conductor
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
-
     End Sub
 
     Private Sub CargarPersona()
